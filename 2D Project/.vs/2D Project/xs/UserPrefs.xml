@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{0234739E-46F0-BC40-E736-2B55143FFF1E}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CoinPickup.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerControl.cs" Line="68" Column="9" />
       <File FileName="Assets/Scripts/DeathBox.cs" Line="8" Column="2" />
-      <File FileName="Assets/Scripts/ScoreManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ScoreManager.cs" Line="34" Column="5" />
+      <File FileName="Assets/Scripts/CoinPickup.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
