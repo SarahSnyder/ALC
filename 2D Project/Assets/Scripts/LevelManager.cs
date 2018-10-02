@@ -32,11 +32,11 @@ public class LevelManager : MonoBehaviour {
         StartCoroutine("RespawnPlayerCo");
     }
 
-    public IEnumerator RespawnPlayerCo({
+    public IEnumerator RespawnPlayerCo(){
         //Generate Death Particle
-        Instantiate(DeathParticle, PC.transform.position, PC.transform.rotation);
+        Instantiate (DeathParticle, PC.transform.position, PC.transform.rotation);
         //Hide PC
-        PC.enabled = false;
+        // PC.enabled = false;
         PC.GetComponent<Renderer>().enabled = false;
         //Gravity Reset
         GravityStore = PC.GetComponent<Rigidbody2D>().gravityScale;
@@ -53,8 +53,10 @@ public class LevelManager : MonoBehaviour {
         //Match PC's Transform Position
         PC.transform.position = currentCheckPoint.transform.position;
         //Show PC
-
-
+       // PC.enable = true;
+        PC.GetComponent<Renderer> ().enabled = true;
+        //Spawn PC
+        Instantiate(RespawnParticle, currentCheckPoint.transform.position, currentCheckPoint.transform.rotation);
     }
                                        
 }
