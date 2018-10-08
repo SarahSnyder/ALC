@@ -6,7 +6,7 @@ public class LevelManager : MonoBehaviour {
 
     public GameObject currentCheckPoint;
 
-    private Rigidbody2D PC;
+    public Rigidbody2D PC;
 
     //Particles
     public GameObject DeathParticle;
@@ -25,7 +25,7 @@ public class LevelManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        PC = FindObjectOfType<Rigidbody2D> ();
+        //PC = FindObjectOfType<Rigidbody2D> ();
 	}
 
     public void RespawnPlayer(){
@@ -40,7 +40,7 @@ public class LevelManager : MonoBehaviour {
         PC.GetComponent<Renderer>().enabled = false;
         //Gravity Reset
         GravityStore = PC.GetComponent<Rigidbody2D>().gravityScale;
-        PC.GetComponent<Rigidbody2D>().gravityScale = 0f;
+        PC.GetComponent<Rigidbody2D>().gravityScale = 1f;
         PC.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         //Point Penalty
         ScoreManager.AddPoints(-PointPenaltyOnDeath);
