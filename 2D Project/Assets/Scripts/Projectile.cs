@@ -6,7 +6,9 @@ public class Projectile : MonoBehaviour {
 
     public float Speed;
 
-    public Rigidbody2D PC;
+    public float TimeOut;
+
+    public GameObject PC;
 
     public GameObject EnemyDeath;
 
@@ -16,19 +18,26 @@ public class Projectile : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        PC = GameObject.Find("PC");
+
+        EnemyDeath = Resources.Load("Prefabs/Death_PS") as GameObject;
+
+        ProjectileParticle = Resources.Load("Prefabs/Respawn_PS") as GameObject;
+
+        if (PC.transform.localScale.x < 0)
+        Speed = -Speed;
+
         //PC = FindObjectOfType<Rigidbody2D>();
 
-     
+        //Destroys Projectile after x seconds
+        Destroy(gameObject, TimeOut);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        //Speed = -Speed;
         if (PC.transform.localScale.x < 0)
-            
+            //Speed = -Speed;
         GetComponent<Rigidbody2D>().velocity = new Vector2(Speed, GetComponent<Rigidbody2D>().velocity.y);
-
-
 	}
 
     void OnTriggerEnter2D(Collider2D other){
@@ -38,8 +47,13 @@ public class Projectile : MonoBehaviour {
             ScoreManager.AddPoints(PointsForKill);
         }
 
-        Instantiate(ProjectileParticle, transform.position, transform.rotation);
+        //Instantiate(ProjectileParticle, transform.position, transform.rotation);
         Destroy(gameObject);
     }
 
+	void OnCollisionEnter2D(Collision2D other)
+	{
+        Instantiate(ProjectileParticle, transform.position, transform.rotation);
+        Destroy(gameObject);
+	}
 }

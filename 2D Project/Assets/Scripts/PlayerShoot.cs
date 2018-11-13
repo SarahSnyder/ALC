@@ -8,6 +8,12 @@ public class PlayerShoot : MonoBehaviour {
 
     public GameObject Projectile;
 
+	void Start()
+	{
+        //Load Projectile fomr Resources/Prefabs Folder
+        Projectile = Resources.Load("Prefabs/Projectile") as GameObject;
+	}
+
 	// Update is called once per frame
 	void Update () {
         if (Input.GetKeyDown(KeyCode.R))
