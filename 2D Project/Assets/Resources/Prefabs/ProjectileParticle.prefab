@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4374045319640612}
   - component: {fileID: 198071241027620924}
   - component: {fileID: 199366197677321092}
+  - component: {fileID: 114180978088328456}
   m_Layer: 0
   m_Name: ProjectileParticle
   m_TagString: Untagged
@@ -41,6 +42,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &114180978088328456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799751474076396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7391e3fb9404643c79e45b2f4854a1e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &198071241027620924
 ParticleSystem:
   m_ObjectHideFlags: 1

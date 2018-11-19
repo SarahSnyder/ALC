@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4263070847108948}
   - component: {fileID: 198137842851964168}
   - component: {fileID: 199352786992992154}
+  - component: {fileID: 114042081895281854}
   m_Layer: 0
   m_Name: Death_PS
   m_TagString: Untagged
@@ -41,6 +42,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &114042081895281854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1568650080668090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7391e3fb9404643c79e45b2f4854a1e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &198137842851964168
 ParticleSystem:
   m_ObjectHideFlags: 1
