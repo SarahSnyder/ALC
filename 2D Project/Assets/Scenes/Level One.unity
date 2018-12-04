@@ -4326,6 +4326,21 @@ Prefab:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 212464172110120478, guid: f400a0683d0144588bf3ef2dd18cef49,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.8207547
+      objectReference: {fileID: 0}
+    - target: {fileID: 212464172110120478, guid: f400a0683d0144588bf3ef2dd18cef49,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.18970275
+      objectReference: {fileID: 0}
+    - target: {fileID: 212464172110120478, guid: f400a0683d0144588bf3ef2dd18cef49,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.18970275
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f400a0683d0144588bf3ef2dd18cef49, type: 2}
   m_IsPrefabParent: 0
@@ -4821,6 +4836,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1343246206 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1756377057871094, guid: f400a0683d0144588bf3ef2dd18cef49,
+    type: 2}
+  m_PrefabInternal: {fileID: 1218083042}
+--- !u!95 &1343246207
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1343246206}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e4ad39af5ca174f6abb98e82624a72b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1346209315
 GameObject:
   m_ObjectHideFlags: 0
