@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: 031ae675d00184b31a36d7c1f58881e0
+guid: 0bc863421ff6f4b69ae7044f6860ef23
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hero_1
-    21300002: hero_2
-    21300004: hero_3
+    21300000: ghost_0
+    21300002: ghost_1
+    21300004: ghost_2
+    21300006: ghost_3
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -85,61 +86,81 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hero_1
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 35
-        width: 16
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a381d0e57fa644d8b9ff5a543fe84481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hero_2
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 36
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2aecb636c866044299107a155da8a53d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hero_3
+      name: ghost_0
       rect:
         serializedVersion: 2
         x: 6
-        y: 3
+        y: 39
         width: 15
-        height: 26
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5fbbe8e1bf4543b2a799622aa5c7c77
+      spriteID: 43903394078ff420eb23555a33acc919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40be5362a7b2d4fc982945a54429fc7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 7
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac062d38016146138d159a27f9b402a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 8
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b949986a6eb6d4fe8a1462a511e43edc
       vertices: []
       indices: 
       edges: []
@@ -147,7 +168,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3a3ff6e5ecf1e4001b7d88b487f0f7f7
+    spriteID: 149739bfae13a4255aa3f660da7bdc41
     vertices: []
     indices: 
     edges: []
