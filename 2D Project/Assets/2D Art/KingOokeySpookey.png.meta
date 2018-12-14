@@ -1,10 +1,12 @@
 fileFormatVersion: 2
-guid: 031ae675d00184b31a36d7c1f58881e0
+guid: 85a79e1e953b54cb28dbab5b944ceca8
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hero_1
-    21300002: hero_2
-    21300004: hero_3
+    21300000: KingOokeySpookey_0
+    21300002: KingOokeySpookey_1
+    21300004: KingOokeySpookey_2
+    21300006: KingOokeySpookey_3
+    21300008: KingOokeySpookey_4
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -85,61 +87,101 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hero_1
+      name: KingOokeySpookey_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 35
-        width: 16
-        height: 26
+        x: 3
+        y: 64
+        width: 25
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a381d0e57fa644d8b9ff5a543fe84481
+      spriteID: 3faad433818b54fdbbf7a35a9b82510d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hero_2
+      name: KingOokeySpookey_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 36
-        width: 16
-        height: 27
+        x: 35
+        y: 64
+        width: 25
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2aecb636c866044299107a155da8a53d
+      spriteID: c20bc743bd1904607b9ec816721fd586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hero_3
+      name: KingOokeySpookey_2
       rect:
         serializedVersion: 2
-        x: 6
-        y: 3
-        width: 15
-        height: 26
+        x: 35
+        y: 32
+        width: 25
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5fbbe8e1bf4543b2a799622aa5c7c77
+      spriteID: 196dd7df388544549b4301611edc783f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KingOokeySpookey_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 32
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e43ee9b7cb794e7ba57c52cb03cf9e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KingOokeySpookey_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7424badbc06d2433894487a6e74131e0
       vertices: []
       indices: 
       edges: []
@@ -147,7 +189,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3a3ff6e5ecf1e4001b7d88b487f0f7f7
+    spriteID: ea9f830981ce1427aa9d687c842d4a3e
     vertices: []
     indices: 
     edges: []
