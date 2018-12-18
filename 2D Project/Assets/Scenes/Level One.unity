@@ -375,7 +375,6 @@ GameObject:
   - component: {fileID: 80182332}
   - component: {fileID: 80182331}
   - component: {fileID: 80182330}
-  - component: {fileID: 80182329}
   - component: {fileID: 1047662041}
   - component: {fileID: 80182328}
   - component: {fileID: 80182333}
@@ -406,32 +405,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   animator: {fileID: 80182333}
---- !u!61 &80182329
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 61578942332160310, guid: 3d0a1e3645e3e4fe7bd849c50391c0dd,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 80182327}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
-    newSize: {x: 0.16, y: 0.16}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.18, y: 0.18}
-  m_EdgeRadius: 0
 --- !u!61 &80182330
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2173,6 +2146,16 @@ Prefab:
         type: 2}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61462293088107324, guid: f400a0683d0144588bf3ef2dd18cef49,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.202
+      objectReference: {fileID: 0}
+    - target: {fileID: 61462293088107324, guid: f400a0683d0144588bf3ef2dd18cef49,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f400a0683d0144588bf3ef2dd18cef49, type: 2}
@@ -4399,6 +4382,16 @@ Prefab:
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 61462293088107324, guid: f400a0683d0144588bf3ef2dd18cef49,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.202
+      objectReference: {fileID: 0}
+    - target: {fileID: 61462293088107324, guid: f400a0683d0144588bf3ef2dd18cef49,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.22
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f400a0683d0144588bf3ef2dd18cef49, type: 2}
   m_IsPrefabParent: 0
@@ -6338,7 +6331,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.17, y: 0.17}
+  m_Size: {x: 0.202, y: 0.22}
   m_EdgeRadius: 0
 --- !u!114 &1769022658
 MonoBehaviour:
