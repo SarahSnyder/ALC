@@ -45,7 +45,7 @@ public class LevelManager : MonoBehaviour {
         PC.GetComponent<Renderer>().enabled = false;
         //Gravity Reset
         GravityStore = PC.GetComponent<Rigidbody2D>().gravityScale;
-        PC.GetComponent<Rigidbody2D>().gravityScale = 1f;
+        PC.GetComponent<Rigidbody2D>().gravityScale = 0f;
         PC.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         //Point Penalty
         ScoreManager.AddPoints(-PointPenaltyOnDeath);
