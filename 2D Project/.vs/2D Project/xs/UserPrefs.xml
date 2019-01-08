@@ -8,7 +8,7 @@
       <File FileName="Assets/Scripts/CoinPickup.cs" Line="13" Column="9" />
       <File FileName="Assets/Scripts/EnemyPatrol.cs" Line="27" Column="9" />
       <File FileName="Assets/Scripts/CheckPoint.cs" Line="18" Column="5" />
-      <File FileName="Assets/Scripts/LevelManager.cs" Line="30" Column="1" />
+      <File FileName="Assets/Scripts/LevelManager.cs" Line="11" Column="27" />
       <File FileName="Assets/Scripts/KillPlayer.cs" Line="14" Column="23" />
       <File FileName="Assets/Scripts/PlayerShoot.cs" Line="16" Column="5" />
       <File FileName="Assets/Scripts/Projectile.cs" Line="25" Column="9" />
